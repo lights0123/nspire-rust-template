@@ -1,0 +1,15 @@
+[package]
+name = "{{project-name}}"
+version = "0.1.0"
+authors = ["{{authors}}"]
+edition = "2018"
+
+[dependencies]
+nspire = "0.5.1"
+ndless-handler = "0.1.0"
+
+[package.metadata.zehn]
+name = "{{project-name}}"
+compress = true
+notice = "Auto generated with cargo-generate"
+flags = "--240x320-support true"
