@@ -2,10 +2,10 @@
 #![no_main]
 extern crate ndless_handler;
 
-use nspire::prelude::*;
-use nspire::msg::msg;
+use ndless::msg::msg;
+use ndless::prelude::*;
 
-#[no_mangle]
+#[entry]
 fn main() {
 	msg("Hello", "Hello, World!");
 }
