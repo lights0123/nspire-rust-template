@@ -13,3 +13,6 @@ name = "{{project-name}}"
 compress = true
 notice = "Auto generated with cargo-generate"
 flags = "--240x320-support true"
+
+[profile.release]
+lto = true
