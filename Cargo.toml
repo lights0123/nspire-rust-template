@@ -5,8 +5,8 @@ authors = ["{{authors}}"]
 edition = "2018"
 
 [dependencies]
-ndless = "0.8.5"
-ndless-handler = "0.2.1"
+ndless = "0.8.6"
+ndless-handler = "0.3.0"
 
 [package.metadata.zehn]
 name = "{{project-name}}"
